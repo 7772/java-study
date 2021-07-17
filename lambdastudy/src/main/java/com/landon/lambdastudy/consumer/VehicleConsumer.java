@@ -4,10 +4,6 @@ import java.util.function.Consumer;
 
 import com.landon.lambdastudy.Vehicle;
 
-public class VehicleConsumer {
-    public Consumer<Vehicle> consume() {
-        return (vehicle) -> {
-            System.out.println("Instance : " + vehicle);
-        };
-    }
+public interface VehicleConsumer {
+    Consumer<Vehicle> consume();
 }

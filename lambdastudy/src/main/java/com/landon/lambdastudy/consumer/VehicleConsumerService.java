@@ -12,6 +12,7 @@ public class VehicleConsumerService {
     }
 
     public void consume() {
-        vehicleInformation.print(new VehicleConsumer().consume());
+        vehicleInformation.print(new VehicleGettingInstanceConsumer().consume());
+        vehicleInformation.print(new VehicleWithBicycleConsumer().consume());
     }
 }
