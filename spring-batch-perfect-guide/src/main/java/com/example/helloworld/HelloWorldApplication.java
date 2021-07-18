@@ -22,7 +22,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
 //@EnableBatchProcessing
-//@SpringBootApplication
+@SpringBootApplication
 public class HelloWorldApplication {
 
 //    @Autowired
@@ -83,7 +83,6 @@ public class HelloWorldApplication {
 //    }
 //
     public static void main(String[] args) {
-//        SpringApplication.run(HelloWorldApplication.class, args);
-        SpringApplication.run(CallableTaskletConfiguration.class, args);
+        SpringApplication.run(HelloWorldApplication.class, args);
     }
 }
