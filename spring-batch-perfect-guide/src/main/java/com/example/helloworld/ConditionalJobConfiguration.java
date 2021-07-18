@@ -4,6 +4,7 @@ import org.springframework.batch.core.Job;
 import org.springframework.batch.core.Step;
 import org.springframework.batch.core.configuration.annotation.EnableBatchProcessing;
 import org.springframework.batch.core.configuration.annotation.JobBuilderFactory; import org.springframework.batch.core.configuration.annotation.StepBuilderFactory;
+import org.springframework.batch.core.job.flow.JobExecutionDecider;
 import org.springframework.batch.core.step.tasklet.Tasklet;
 import org.springframework.batch.repeat.RepeatStatus;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -47,11 +48,19 @@ public class ConditionalJobConfiguration {
     }
 
     @Bean
+    public JobExecutionDecider decider() {
+        return new RandomDecider();
+    }
+
+    @Bean
     public Job conditionalJob() {
         return jobBuilderFactory.get("conditionalJob")
             .start(firstStep())
+            .next(decider())
+            .from(decider())
             .on("FAILED").to(failureStep())
-            .from(firstStep()).on("*").to(successStep())
+            .from(decider())
+            .on("*").to(successStep())
             .end()
             .build();
     }
