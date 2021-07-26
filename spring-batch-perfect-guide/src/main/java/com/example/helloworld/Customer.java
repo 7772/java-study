@@ -17,30 +17,29 @@ public class Customer {
 	private String firstName;
 	@Column(name = "middleInitial")
 	private String middleInitial;
+	private String middleName;
 	@Column(name = "lastName")
 	private String lastName;
-//	private String addressNumber;
-//	private String street;
+	private String addressNumber;
+	private String street;
 	private String address;
 	private String city;
 	private String state;
 	private String zipCode;
 
-//	private List<Transaction> transactions;
-
 	public Customer() {
 	}
 
-//	public Customer(String firstName, String middleName, String lastName, String addressNumber, String street, String city, String state, String zipCode) {
-//		this.firstName = firstName;
-//		this.middleName = middleName;
-//		this.lastName = lastName;
-//		this.addressNumber = addressNumber;
-//		this.street = street;
-//		this.city = city;
-//		this.state = state;
-//		this.zipCode = zipCode;
-//	}
+	public Customer(String firstName, String middleName, String lastName, String addressNumber, String street, String city, String state, String zipCode) {
+		this.firstName = firstName;
+		this.middleName = middleName;
+		this.lastName = lastName;
+		this.addressNumber = addressNumber;
+		this.street = street;
+		this.city = city;
+		this.state = state;
+		this.zipCode = zipCode;
+	}
 
 	public Long getId() {
 		return id;
@@ -74,22 +73,21 @@ public class Customer {
 		this.lastName = lastName;
 	}
 
-//	public String getAddressNumber() {
-//		return addressNumber;
-//	}
-//
-//	public void setAddressNumber(String addressNumber) {
-//		this.addressNumber = addressNumber;
-//	}
-//
-//	public String getStreet() {
-//		return street;
-//	}
-//
-//	public void setStreet(String street) {
-//		this.street = street;
-//	}
+	public String getAddressNumber() {
+		return addressNumber;
+	}
 
+	public void setAddressNumber(String addressNumber) {
+		this.addressNumber = addressNumber;
+	}
+
+	public String getStreet() {
+		return street;
+	}
+
+	public void setStreet(String street) {
+		this.street = street;
+	}
 
 	public String getAddress() {
 		return address;
@@ -123,16 +121,6 @@ public class Customer {
 		this.zipCode = zipCode;
 	}
 
-//	public List<Transaction> getTransactions() {
-//		return transactions;
-//	}
-//
-//	@XmlElementWrapper(name = "transactions")
-//	@XmlElement(name = "transaction")
-//	public void setTransactions(List<Transaction> transactions) {
-//		this.transactions = transactions;
-//	}
-
 	@Override
 	public String toString() {
 		return "Customer{" +
@@ -146,40 +134,4 @@ public class Customer {
 				", zipCode='" + zipCode + '\'' +
 				'}';
 	}
-
-//	@Override
-//	public String toString() {
-//		StringBuilder output = new StringBuilder();
-//
-//		output.append(firstName);
-//		output.append(" ");
-//		output.append(middleInitial);
-//		output.append(". ");
-//		output.append(lastName);
-//
-//		if(transactions != null&& transactions.size() > 0) {
-//			output.append(" has ");
-//			output.append(transactions.size());
-//			output.append(" transactions.");
-//		} else {
-//			output.append(" has no transactions.");
-//		}
-//
-//		return output.toString();
-//	}
-
-	//	@Override
-//	public String toString() {
-//		return "Customer{" +
-//				"firstName='" + firstName + '\'' +
-//				", middleInitial='" + middleInitial + '\'' +
-//				", lastName='" + lastName + '\'' +
-//				", address='" + address + '\'' +
-////				", addressNumber='" + addressNumber + '\'' +
-////				", street='" + street + '\'' +
-//				", city='" + city + '\'' +
-//				", state='" + state + '\'' +
-//				", zipCode='" + zipCode + '\'' +
-//				'}';
-//	}
 }
