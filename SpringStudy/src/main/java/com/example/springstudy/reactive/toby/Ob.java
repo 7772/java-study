@@ -3,6 +3,8 @@ package com.example.springstudy.reactive.toby;
 import java.util.Iterator;
 import java.util.Observable;
 import java.util.Observer;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 
 @SuppressWarnings("deprecation")
 public class Ob {
@@ -23,27 +25,27 @@ public class Ob {
             }
         };
 
-        for (int i : iter) {
-            System.out.println("------------ Push -------------");
-            System.out.println(i);
-        }
+//        for (int i : iter) {
+//            System.out.println("------------ Push -------------");
+//            System.out.println(i);
+//        }
 
 //        for (Iterator<Integer> it = iter.iterator(); it.hasNext(); ) {
 //            System.out.println(it.next());
 //        }
 
         // Push 방식
-        Observer observer = new Observer() {
-            @Override
-            public void update(Observable o, Object arg) {
-                System.out.println("------------ Pull -------------");
-                System.out.println(arg);
-            }
-        };
+        Observer observer = (Observable o, Object arg) -> System.out.println(Thread.currentThread().getName() + " " + arg);
 
         IntObservable observable = new IntObservable();
         observable.addObserver(observer);
-        observable.run();
+
+        ExecutorService es = Executors.newSingleThreadExecutor();
+        es.execute(observable);
+
+
+        System.out.println(Thread.currentThread().getName() + " EXIT");
+        es.shutdown();
     }
 
     static class IntObservable extends Observable implements Runnable {

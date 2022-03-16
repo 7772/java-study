@@ -1,11 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="f99d85b1-4a64-4d4a-9fcd-67bf6f393c2d" name="Default Changelist" comment="" />
+    <list default="true" id="f99d85b1-4a64-4d4a-9fcd-67bf6f393c2d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/SpringStudy/src/main/java/com/example/springstudy/reactive/toby/PubSub.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problem-solving/baekjoon/Main2309.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problem-solving/baekjoon/Main2609.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringStudy/src/main/java/com/example/springstudy/reactive/toby/Ob.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringStudy/src/main/java/com/example/springstudy/reactive/toby/Ob.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1tDIJ0mCKzaxfX9QK8fgc4KXvcn" />
   <component name="ProjectViewState">
@@ -18,6 +35,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -28,10 +46,22 @@
       <option name="presentableId" value="Default" />
       <updated>1622297158619</updated>
       <workItem from="1622297160360" duration="3000" />
+      <workItem from="1647425244537" duration="2949000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
