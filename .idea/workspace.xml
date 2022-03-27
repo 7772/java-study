@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f99d85b1-4a64-4d4a-9fcd-67bf6f393c2d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/SpringStudy/src/main/java/com/example/springstudy/reactive/toby/PubSub.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problem-solving/baekjoon/Main2309.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problem-solving/baekjoon/Main2609.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problem-solving/baekjoon/Main1292.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problem-solving/baekjoon/Main14719.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problem-solving/baekjoon/Main14888.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problem-solving/baekjoon/Main2504.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problem-solving/baekjoon/Main2581.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problem-solving/baekjoon/Main2639.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringStudy/src/main/java/com/example/springstudy/reactive/toby/Ob.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringStudy/src/main/java/com/example/springstudy/reactive/toby/Ob.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +38,9 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -46,7 +51,11 @@
       <option name="presentableId" value="Default" />
       <updated>1622297158619</updated>
       <workItem from="1622297160360" duration="3000" />
-      <workItem from="1647425244537" duration="2949000" />
+      <workItem from="1647425244537" duration="7041000" />
+      <workItem from="1647661571212" duration="5090000" />
+      <workItem from="1648077404740" duration="11169000" />
+      <workItem from="1648109693239" duration="1788000" />
+      <workItem from="1648337944633" duration="7566000" />
     </task>
     <servers />
   </component>
@@ -63,5 +72,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
