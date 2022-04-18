@@ -38,17 +38,15 @@ public class AdjacentMatrixDFS implements DFS {
         AdjacentMatrixDFS adjacentMatrixDFS = new AdjacentMatrixDFS(10);
 
         adjacentMatrixDFS.edge(0, 1);
-        adjacentMatrixDFS.edge(0, 3);
-        adjacentMatrixDFS.edge(0, 6);
-        adjacentMatrixDFS.edge(0, 8);
-        adjacentMatrixDFS.edge(0, 9);
-        adjacentMatrixDFS.edge(2, 1);
-        adjacentMatrixDFS.edge(3, 5);
-        adjacentMatrixDFS.edge(7, 9);
-        adjacentMatrixDFS.edge(5, 3);
-        adjacentMatrixDFS.edge(5, 1);
-        adjacentMatrixDFS.edge(8, 4);
-        adjacentMatrixDFS.edge(9, 3);
+        adjacentMatrixDFS.edge(0, 2);
+        adjacentMatrixDFS.edge(1, 3);
+        adjacentMatrixDFS.edge(1, 4);
+        adjacentMatrixDFS.edge(2, 5);
+        adjacentMatrixDFS.edge(2, 6);
+        adjacentMatrixDFS.edge(3, 7);
+        adjacentMatrixDFS.edge(4, 7);
+        adjacentMatrixDFS.edge(5, 7);
+        adjacentMatrixDFS.edge(6, 7);
 
         adjacentMatrixDFS.print();
         adjacentMatrixDFS.dfs(0);
