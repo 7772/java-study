@@ -4,69 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f99d85b1-4a64-4d4a-9fcd-67bf6f393c2d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/algorithms/DFS/AdjacentListDFS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithms/DFS/AdjacentMatrixDFS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithms/DFS/DFS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithms/problem-solving/baekjoon/Main10872.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithms/problem-solving/baekjoon/Main10872.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithms/problem-solving/baekjoon/Main11653.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithms/problem-solving/baekjoon/Main11653.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithms/problem-solving/baekjoon/Main1193.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithms/problem-solving/baekjoon/Main1193.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithms/problem-solving/baekjoon/Main15649.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithms/problem-solving/baekjoon/Main15649.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithms/problem-solving/baekjoon/Main15650.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithms/problem-solving/baekjoon/Main15650.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithms/problem-solving/baekjoon/Main15651.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithms/problem-solving/baekjoon/Main15651.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithms/problem-solving/baekjoon/Main15652.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithms/problem-solving/baekjoon/Main15652.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithms/problem-solving/baekjoon/Main1712.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithms/problem-solving/baekjoon/Main1712.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithms/problem-solving/baekjoon/Main2231.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithms/problem-solving/baekjoon/Main2231.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithms/problem-solving/baekjoon/Main2292.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithms/problem-solving/baekjoon/Main2292.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithms/problem-solving/baekjoon/Main2750.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithms/problem-solving/baekjoon/Main2750.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithms/problem-solving/baekjoon/Main2751.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithms/problem-solving/baekjoon/Main2751.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithms/problem-solving/baekjoon/Main2798.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithms/problem-solving/baekjoon/Main2798.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithms/problem-solving/baekjoon/Main2869.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithms/problem-solving/baekjoon/Main2869.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithms/problem-solving/baekjoon/Main7568.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithms/problem-solving/baekjoon/Main7568.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithms/problem-solving/baekjoon/Main9663.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithms/problem-solving/baekjoon/Main9663.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="f99d85b1-4a64-4d4a-9fcd-67bf6f393c2d" name="Default Changelist" comment="‚">
+      <change afterPath="$PROJECT_DIR$/algorithms/problem-solving/baekjoon/Main10828.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms/problem-solving/baekjoon/Main11047.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms/problem-solving/baekjoon/Main11659.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms/problem-solving/baekjoon/Main1260.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms/problem-solving/baekjoon/Main1929.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problem-solving/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/problem-solving/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problem-solving/baekjoon/Main10810.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/problem-solving/baekjoon/Main10810.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problem-solving/baekjoon/Main10870.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/problem-solving/baekjoon/Main10870.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problem-solving/baekjoon/Main1292.class" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/problem-solving/baekjoon/Main1292.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problem-solving/baekjoon/Main1292.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/problem-solving/baekjoon/Main1292.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problem-solving/baekjoon/Main14719.class" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/problem-solving/baekjoon/Main14719.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problem-solving/baekjoon/Main14719.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/problem-solving/baekjoon/Main14719.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problem-solving/baekjoon/Main14888.class" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/problem-solving/baekjoon/Main14888.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problem-solving/baekjoon/Main14888.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/problem-solving/baekjoon/Main14888.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problem-solving/baekjoon/Main1978.class" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/problem-solving/baekjoon/Main1978.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problem-solving/baekjoon/Main1978.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/problem-solving/baekjoon/Main1978.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problem-solving/baekjoon/Main2309.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/problem-solving/baekjoon/Main2309.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problem-solving/baekjoon/Main2460.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/problem-solving/baekjoon/Main2460.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problem-solving/baekjoon/Main2501.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/problem-solving/baekjoon/Main2501.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problem-solving/baekjoon/Main2504.class" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/problem-solving/baekjoon/Main2504.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problem-solving/baekjoon/Main2504.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/problem-solving/baekjoon/Main2504.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problem-solving/baekjoon/Main2581.class" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/problem-solving/baekjoon/Main2581.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problem-solving/baekjoon/Main2581.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/problem-solving/baekjoon/Main2581.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problem-solving/baekjoon/Main2609.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/problem-solving/baekjoon/Main2609.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problem-solving/baekjoon/Main2639.class" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/problem-solving/baekjoon/Main2639.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problem-solving/baekjoon/Main2639.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/problem-solving/baekjoon/Main2639.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problem-solving/baekjoon/Main3460.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/problem-solving/baekjoon/Main3460.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problem-solving/problem-solving.iml" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/problem-solving/problem-solving.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problem-solving/problems/Day1_TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/problem-solving/problems/Day1_TwoSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problem-solving/problems/Day2_AddTwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/problem-solving/problems/Day2_AddTwoSum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +66,9 @@
       <workItem from="1649403450826" duration="9675000" />
       <workItem from="1649553643066" duration="3084000" />
       <workItem from="1649866864239" duration="14843000" />
-      <workItem from="1650180020716" duration="7391000" />
+      <workItem from="1650180020716" duration="10760000" />
+      <workItem from="1650322735567" duration="7919000" />
+      <workItem from="1650412432318" duration="10566000" />
     </task>
     <servers />
   </component>
