@@ -1,12 +1,18 @@
 
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.util.StringTokenizer;
+import java.util.List;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.ListIterator;
+import java.util.HashMap;
 
-public class AdjacentListDFS implements DFS {
+class AdjacentListDFS {
     private int vertexCount;
     private ArrayList<LinkedList<Integer>> graphs;
     private boolean[] visits;
+    private int count = 0;
 
     public AdjacentListDFS(int vertexCount) {
         this.vertexCount = vertexCount;
@@ -26,7 +32,7 @@ public class AdjacentListDFS implements DFS {
 
     public void dfs(int vertex) {
         visits[vertex] = true;
-        System.out.print(vertex + " ");
+        count++;
 
         for (int i : graphs.get(vertex)) {
             if (!visits[i]) {
@@ -35,36 +41,44 @@ public class AdjacentListDFS implements DFS {
         }
     }
 
-    public void print() {
+    public int getClusterCount() {
+        int clusterCount = 0;
+
         for (int i = 0; i < vertexCount; i++) {
-            System.out.print(i + " ");
+            dfs(i);
 
-            ListIterator iterator = graphs.get(i).listIterator(0);
-            while (iterator.hasNext()) {
-                int next = (int) iterator.next();
-
-                System.out.print(next + " ");
+            if (adjacentListDFS.count > 1) {
+                clusterCount++;
             }
 
-            System.out.println();
+            this.count = 0;
         }
+
+        return count;
     }
+}
+
+public class Solution {
+    private static int N = 100000;
+    private static int a;
+    private static int b;
 
     public static void main(String[] args) {
-        AdjacentListDFS adjacentListDFS = new AdjacentListDFS(8);
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        N = Integer.parseInt(br.readLine());
 
-        adjacentListDFS.edge(0, 1);
-        adjacentListDFS.edge(0, 2);
-        adjacentListDFS.edge(1, 3);
-        adjacentListDFS.edge(1, 4);
-        adjacentListDFS.edge(2, 5);
-        adjacentListDFS.edge(2, 6);
-        adjacentListDFS.edge(3, 7);
-        adjacentListDFS.edge(4, 7);
-        adjacentListDFS.edge(5, 7);
-        adjacentListDFS.edge(6, 7);
+        AdjacentListDFS adjacentListDFS = new AdjacentListDFS(N);
 
-        adjacentListDFS.print();
-        adjacentListDFS.dfs(0);
+        StringTokenizer tokenizer;
+        for (int i = 0; i < N; i++) {
+            tokenizer = new StringTokenizer(br.readLine(), " ");
+
+            a = Integer.parseInt(tokenizer.nextToken());
+            b = Integer.parseInt(tokenizer.nextToken());
+
+            adjacentListDFS.edge(a, b);
+        }
+
+        System.out.println(adjacentListDFS.getClusterCount());
     }
 }

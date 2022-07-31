@@ -4,13 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f99d85b1-4a64-4d4a-9fcd-67bf6f393c2d" name="Default Changelist" comment="‚">
-      <change afterPath="$PROJECT_DIR$/algorithms/problem-solving/baekjoon/Main10828.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithms/problem-solving/baekjoon/Main11047.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithms/problem-solving/baekjoon/Main11659.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithms/problem-solving/baekjoon/Main1260.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithms/problem-solving/baekjoon/Main1929.java" afterDir="false" />
+    <list default="true" id="f99d85b1-4a64-4d4a-9fcd-67bf6f393c2d" name="Default Changelist" comment="j">
+      <change afterPath="$PROJECT_DIR$/algorithms/DFS/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms/problem-solving/baekjoon/Main10819.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms/problem-solving/baekjoon/Main10971.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms/problem-solving/baekjoon/Main10975.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms/problem-solving/baekjoon/Main1107.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms/problem-solving/baekjoon/Main14501.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms/problem-solving/baekjoon/Main1476.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms/problem-solving/baekjoon/Main14889.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms/problem-solving/baekjoon/Main15655.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms/problem-solving/baekjoon/Main15656.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms/problem-solving/baekjoon/Main15661.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms/problem-solving/baekjoon/Main3085_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms/problem-solving/baekjoon/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithms/DFS/AdjacentListDFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/DFS/AdjacentListDFS.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +44,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/algorithms/DFS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -43,6 +52,10 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/algorithms/DFS" />
+      <recent name="$PROJECT_DIR$/algorithms/problem-solving/baekjoon" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/algorithms" />
     </key>
@@ -68,7 +81,38 @@
       <workItem from="1649866864239" duration="14843000" />
       <workItem from="1650180020716" duration="10760000" />
       <workItem from="1650322735567" duration="7919000" />
-      <workItem from="1650412432318" duration="10566000" />
+      <workItem from="1650412432318" duration="13284000" />
+      <workItem from="1650803120668" duration="26000" />
+      <workItem from="1650803162841" duration="2013000" />
+      <workItem from="1650874299200" duration="490000" />
+      <workItem from="1651062467842" duration="3226000" />
+      <workItem from="1651143196808" duration="14000" />
+      <workItem from="1651274549856" duration="889000" />
+      <workItem from="1654824914926" duration="12879000" />
+      <workItem from="1655023925966" duration="5492000" />
+      <workItem from="1655194558539" duration="196000" />
+      <workItem from="1656637775813" duration="7502000" />
+      <workItem from="1656900402481" duration="3605000" />
+      <workItem from="1656980781632" duration="3191000" />
+      <workItem from="1656996874599" duration="1292000" />
+      <workItem from="1657068239438" duration="4053000" />
+      <workItem from="1657077208121" duration="52000" />
+      <workItem from="1657083366214" duration="486000" />
+      <workItem from="1657102989558" duration="1897000" />
+      <workItem from="1657115695673" duration="14000" />
+      <workItem from="1657152329695" duration="2573000" />
+      <workItem from="1657169044488" duration="13535000" />
+      <workItem from="1657585252749" duration="3558000" />
+      <workItem from="1657617024864" duration="339000" />
+      <workItem from="1657676428181" duration="5000" />
+      <workItem from="1658277660316" duration="2957000" />
+      <workItem from="1658362488727" duration="2429000" />
+      <workItem from="1658623025504" duration="20203000" />
+      <workItem from="1658826054686" duration="611000" />
+      <workItem from="1658837843142" duration="12164000" />
+      <workItem from="1658927775744" duration="5646000" />
+      <workItem from="1658976592753" duration="3288000" />
+      <workItem from="1659063047449" duration="11545000" />
     </task>
     <servers />
   </component>
