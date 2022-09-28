@@ -5,21 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f99d85b1-4a64-4d4a-9fcd-67bf6f393c2d" name="Default Changelist" comment="j">
-      <change afterPath="$PROJECT_DIR$/algorithms/DFS/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithms/problem-solving/baekjoon/Main10819.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithms/problem-solving/baekjoon/Main10971.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithms/problem-solving/baekjoon/Main10975.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithms/problem-solving/baekjoon/Main1107.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithms/problem-solving/baekjoon/Main14501.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithms/problem-solving/baekjoon/Main1476.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithms/problem-solving/baekjoon/Main14889.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithms/problem-solving/baekjoon/Main15655.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithms/problem-solving/baekjoon/Main15656.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithms/problem-solving/baekjoon/Main15661.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithms/problem-solving/baekjoon/Main3085_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithms/problem-solving/baekjoon/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms/problem-solving/baekjoon/Main10845.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms/problem-solving/baekjoon/Main11052.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms/problem-solving/baekjoon/Main11053.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms/problem-solving/baekjoon/Main1463.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms/problem-solving/baekjoon/Main15988.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms/problem-solving/baekjoon/Main9663_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms/problem-solving/hyundai/Solution1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms/problem-solving/hyundai/Solution2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms/problem-solving/hyundai/Solution3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms/problem-solving/hyundai/Solution4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms/problem-solving/hyundai/Solution5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms/problem-solving/hyundai/Solution6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms/problem-solving/programmers/LevelTestV2-1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms/problem-solving/programmers/LevelTestV2-2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms/sorting/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms/sorting/InsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms/sorting/SelectionSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithms/DFS/AdjacentListDFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/DFS/AdjacentListDFS.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +47,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/algorithms/DFS" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/algorithms/problem-solving/hyundai" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -53,6 +56,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/algorithms/problem-solving/hyundai" />
       <recent name="$PROJECT_DIR$/algorithms/DFS" />
       <recent name="$PROJECT_DIR$/algorithms/problem-solving/baekjoon" />
     </key>
@@ -113,6 +117,18 @@
       <workItem from="1658927775744" duration="5646000" />
       <workItem from="1658976592753" duration="3288000" />
       <workItem from="1659063047449" duration="11545000" />
+      <workItem from="1659226714041" duration="16472000" />
+      <workItem from="1659353711819" duration="6899000" />
+      <workItem from="1659399858317" duration="2079000" />
+      <workItem from="1659488909873" duration="758000" />
+      <workItem from="1659570717262" duration="8059000" />
+      <workItem from="1659676994509" duration="7000" />
+      <workItem from="1659757382121" duration="16752000" />
+      <workItem from="1659926931114" duration="5011000" />
+      <workItem from="1660782988758" duration="2271000" />
+      <workItem from="1660884447409" duration="3494000" />
+      <workItem from="1661056614717" duration="14465000" />
+      <workItem from="1661907530178" duration="1026000" />
     </task>
     <servers />
   </component>
